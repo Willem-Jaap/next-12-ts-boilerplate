@@ -1,0 +1,80 @@
+@mixin breakpoint($point) {
+    @if $point == huge {
+        @media (max-width: $breakpoint-huge) {
+            @content;
+        }
+    } @else if $point == large {
+        @media (max-width: $breakpoint-large) {
+            @content;
+        }
+    } @else if $point == medium {
+        @media (max-width: $breakpoint-medium) {
+            @content;
+        }
+    } @else if $point == small {
+        @media (max-width: $breakpoint-small) {
+            @content;
+        }
+    } @else if $point == tiny {
+        @media (max-width: $breakpoint-tiny) {
+            @content;
+        }
+    } @else {
+        @media (max-width: $point) {
+            @content;
+        }
+    }
+}
+
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flexCenterVertical {
+    display: flex;
+    align-items: center;
+}
+
+@mixin flexCenterHorizontal {
+    display: flex;
+    justify-content: center;
+}
+
+@mixin flexCenterSpaceBetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin square($unit) {
+    width: $unit;
+    height: $unit;
+}
+
+@mixin font($size, $weight, $style, $family) {
+    font-family: $family;
+    font-size: $size;
+    font-weight: $weight;
+    font-style: $style;
+}
+
+@mixin heightWidthFull {
+    width: 100%;
+    height: 100%;
+}
+
+@mixin pseudoFull {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: "";
+}
+
+@mixin border {
+    border: $border-width solid $black-blue-10;
+    border-radius: $border-radius;
+}
