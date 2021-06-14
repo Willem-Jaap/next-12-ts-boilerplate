@@ -1,10 +1,10 @@
-import { FC } from "react";
+import React, { FC } from 'react';
 
 const Component: FC = () => {
     return (
         <>
             <h1>Hello World</h1>
-            <p>This component is located in 'src/components/Component.tsx'</p>
+            <p>This component is located in &apos;src/components/Component.tsx&apos;</p>
         </>
     );
 };

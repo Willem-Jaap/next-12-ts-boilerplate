@@ -1,13 +1,17 @@
-import Head from "next/head";
-import Component from "../components/Component";
+import React, { FC } from 'react';
 
-export default function Home() {
+import Head from 'next/head';
+import Component from '../components/Component';
+
+const Home: FC = () => {
     return (
         <>
             <Head>
-                <title>Hello World!</title>
+                <title>Next.js Boilerplate</title>
             </Head>
             <Component />
         </>
     );
-}
+};
+
+export default Home;

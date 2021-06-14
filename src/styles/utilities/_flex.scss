@@ -4,8 +4,10 @@
     &--center-vc {
         @include flexCenterVertical;
     }
+
     &--center {
         @include flexCenter;
+
         flex-direction: column;
     }
 
