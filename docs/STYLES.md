@@ -16,7 +16,7 @@ This stands for Block Element Modifier
 ```html
 <div className="card card--black">
     <img src="" className="card__banner" />
-    <!-- If the design is consistent you can use HTML tags withouth aditional styling. otherwise this h2 would have a 'card__title' class -->
+    <!-- If the design is consistent you can use HTML tags withouth aditional styling. otherwise this h2 would have a 'card__title' class. -->
     <h2>Lorem ipsum</h2>
     <!-- card__description if you need to style this. -->
     <p>Lorem ipsum dolor sit amet consectetur.</p>
@@ -35,7 +35,7 @@ This stands for Block Element Modifier
         object-fit: cover;
     }
 
-    // Modifier (--). Modifies component or element. this class modifies existing styling
+    // Modifier (--). Modifies component or element. this class modifies existing styling.
     &--dark {
         background: black;
         color: white;
@@ -44,9 +44,9 @@ This stands for Block Element Modifier
 
 // Another example.
 .btn {
-    // Here would be all the styling styling for a basic button
+    // This would be all the styling for a basic button.
     &--primary {
-        // This would contain additional styling for a button with the classes 'btn btn--primary'
+        // This would contain additional styling for a button with the classes 'btn btn--primary'.
     }
 }
 ```
@@ -59,7 +59,7 @@ The first layer of CSS which does not contain actual styling. It contains [mixin
 
 ### **Settings**
 
-Styling resets and all base styling for bare HTML tags. also contains font definitions e.c.t.
+Styling resets and all base styling for bare HTML tags. also contains font definitions e.t.c.
 
 ### **Components**
 
@@ -67,7 +67,7 @@ This folder contains styling per component. For example the styling for a sideba
 
 ### **Layouts**
 
-Placed here are specific layouts for views. You shouldn't need this much as your HTML markup & styling from the components will do most of the work. Extra margin or padding, or flex layouts can be made with utility classes (Like Bootstrap)
+Placed here are specific layouts for views. You shouldn't need this much as your HTML markup & styling from the components will do most of the work. Extra margin, padding or flex layouts can be made with utility classes (like Bootstrap)
 
 ### **Utilities**
 
@@ -76,9 +76,9 @@ Utility classes to add quick styling to a HTML tag. Mostly use these to create l
 ### Example:
 
 ```html
-<!-- Display flex utility class -->
+<!-- Display flex utility class. -->
 <div className="flex--center">
-    <!-- Text bold class -->
+    <!-- Text bold class. -->
     <p className="t--bold">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate voluptatum ab ratione voluptas iste
         inventore?
