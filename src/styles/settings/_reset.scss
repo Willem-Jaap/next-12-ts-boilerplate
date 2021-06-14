@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 html {
     overflow: hidden;
     height: 100vh;
