@@ -63,7 +63,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    content: "";
+    content: '';
 }
 @mixin border {
     border: $border-width solid $black-blue-10;
