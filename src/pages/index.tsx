@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
-
 import Head from 'next/head';
-import Component from '../components/Component';
+
+import Component from '@components/Component';
 
 const Home: FC = () => {
     return (
