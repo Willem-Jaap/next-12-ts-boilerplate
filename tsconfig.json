@@ -17,11 +17,13 @@
         "baseUrl": ".",
         "paths": {
             "@components/*": ["src/components/*"],
-            "@context/*": ["src/context/*"],
-            "@functions/*": ["src/functions/*"],
-            "@hooks/*": ["src/hooks/*"],
+            "@contexts/*": ["src/lib/contexts/*"],
+            "@functions/*": ["src/lib/functions/*"],
+            "@typescript/*": ["src/lib/types/*"],
+            "@hooks/*": ["src/lib/hooks/*"],
             "@pages/*": ["src/pages/*"],
             "@styles/*": ["src/styles/*"],
+            "@lib/*": ["src/lib/*"],
             "@/*": ["src/*"]
         }
     },
