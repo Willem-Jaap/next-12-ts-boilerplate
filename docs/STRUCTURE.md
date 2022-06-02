@@ -25,6 +25,12 @@ Source of the entire project. Everything you code exept assets should be in this
 
 React components. If a components has subcomponents (Ex: Form, FormInput, FormSubmit) it should be contained in a folder with the name of the root component (Form).
 
+Components are seperated in to differen types: form, layout, misc, protected, utils.
+
+## src/content
+
+Folder to put content files, routes e.t.c.
+
 ## src/lib
 
 This directory contains reuseable, non-ui-generating files.

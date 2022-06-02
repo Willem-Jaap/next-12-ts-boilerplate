@@ -17,6 +17,7 @@
         "baseUrl": ".",
         "paths": {
             "@components/*": ["src/components/*"],
+            "@content/*": ["src/content/*"],
             "@contexts/*": ["src/lib/contexts/*"],
             "@functions/*": ["src/lib/functions/*"],
             "@typescript/*": ["src/lib/types/*"],
