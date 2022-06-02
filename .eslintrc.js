@@ -14,6 +14,7 @@ module.exports = {
         },
     },
     extends: [
+        'plugin:@next/next/recommended', // Next.js recommended rules
         'plugin:react/recommended', // Specify rules for React
         'plugin:react-hooks/recommended', // Specify rules for React hooks
         'plugin:@typescript-eslint/recommended', // Specify rules for Typescript

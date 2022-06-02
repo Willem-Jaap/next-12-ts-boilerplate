@@ -26,7 +26,8 @@
             "@styles/*": ["src/styles/*"],
             "@lib/*": ["src/lib/*"],
             "@/*": ["src/*"]
-        }
+        },
+        "incremental": true
     },
     "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
     "exclude": ["node_modules"]
