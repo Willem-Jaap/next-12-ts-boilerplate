@@ -11,16 +11,11 @@
 
 html {
     overflow: hidden;
-    height: 100vh;
 }
 
 body {
     position: relative;
     overflow: hidden;
-    max-width: 100vw;
-    height: 100vh;
-    background: $white;
-    color: $black;
 }
 
 button {

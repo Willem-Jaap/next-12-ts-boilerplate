@@ -1,26 +1,43 @@
 /* ============================= */
-//  Variables
-/* ============================= */
-@import './abstracts/variables';
-/* ============================= */
-//  Mixins
-/* ============================= */
-@import './abstracts/mixins';
-/* ============================= */
 //  Settings
 /* ============================= */
-// Reset default browser styling before everything else.
-@import './settings/reset';
-@import './settings/basic';
-@import './settings/fonts';
-@import './settings/text';
+@import 'settings/root';
+@import 'settings/variables';
+@import 'settings/fonts';
+
+/* ============================= */
+//  Tools
+/* ============================= */
+@import 'tools/functions';
+@import 'tools/mixins';
+
+/* ============================= */
+//  Generic
+/* ============================= */
+@import 'generic/reset';
+@import 'generic/page';
+
 /* ============================= */
 //  Utilities
 /* ============================= */
-@import './utilities/flex';
-@import './utilities/margin';
-@import './utilities/padding';
-@import './utilities/text';
+@import 'utilities/flex';
+@import 'utilities/margin';
+@import 'utilities/padding';
+@import 'utilities/text';
+
+/* ============================= */
+//  Elements
+/* ============================= */
+@import 'elements/buttons';
+@import 'elements/inputs';
+@import 'elements/text';
+
 /* ============================= */
 //  Components
 /* ============================= */
+// @import 'components/------';
+
+/* ============================= */
+//  Layouts
+/* ============================= */
+// @import 'layouts/------';

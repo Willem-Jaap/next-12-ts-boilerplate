@@ -1,28 +1,20 @@
 {
-    "plugins": [
-        "stylelint-scss",
-        "stylelint-order"
-    ],
-    "extends": [
-        "stylelint-config-standard",
-        "stylelint-config-prettier"
-    ],
+    "customSyntax": "postcss-scss",
+    "plugins": ["stylelint-scss", "stylelint-order"],
+    "extends": ["stylelint-config-standard", "stylelint-config-prettier"],
     "rules": {
         "color-no-invalid-hex": true,
         "at-rule-no-unknown": null,
         "scss/at-rule-no-unknown": true,
-        "at-rule-empty-line-before": "never",
         "rule-empty-line-before": [
             "always",
             {
-                "ignore": [
-                    "after-comment",
-                    "first-nested"
-                ]
+                "ignore": ["after-comment", "first-nested"]
             }
         ],
-        "comment-empty-line-before": "never",
+        "comment-empty-line-before": null,
         "max-empty-lines": 1,
+        "selector-class-pattern": null,
         "order/properties-order": [
             "all",
             "position",
@@ -196,7 +188,5 @@
             "cursor"
         ]
     },
-    "ignoreFiles": [
-        "build/*.css"
-    ]
+    "ignoreFiles": ["build/*.css", "src/renderer/styles/style.css"]
 }

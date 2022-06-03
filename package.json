@@ -1,7 +1,7 @@
 {
     "name": "next-ts-boilerplate",
-    "version": "0.1.0",
-    "private": true,
+    "version": "1.1.0",
+    "author": "Willem-Jaap (https://github.com/Willem-Jaap)",
     "scripts": {
         "dev": "next dev",
         "build": "next build",
@@ -24,17 +24,17 @@
         "@types/uuid": "^8.3.0",
         "@typescript-eslint/eslint-plugin": "^4.26.1",
         "@typescript-eslint/parser": "^4.26.1",
-        "eslint": "^7.28.0",
+        "eslint": "^7.32.0",
         "eslint-config-prettier": "^8.3.0",
-        "eslint-plugin-prettier": "^3.4.0",
-        "eslint-plugin-react": "^7.24.0",
-        "eslint-plugin-react-hooks": "^4.2.0",
-        "prettier": "^2.3.1",
-        "stylelint": "^13.13.1",
-        "stylelint-config-prettier": "^8.0.2",
-        "stylelint-config-standard": "^22.0.0",
-        "stylelint-order": "^4.1.0",
-        "stylelint-scss": "^3.19.0",
+        "eslint-plugin-prettier": "^4.0.0",
+        "eslint-plugin-react": "^7.28.0",
+        "eslint-plugin-react-hooks": "^4.3.0",
+        "prettier-stylelint": "^0.4.2",
+        "stylelint-config-prettier": "^9.0.3",
+        "stylelint-config-standard": "^24.0.0",
+        "stylelint-config-standard-scss": "^3.0.0",
+        "stylelint-order": "^5.0.0",
+        "stylelint-scss": "^4.1.0",
         "typescript": "^4.2.4"
     }
 }

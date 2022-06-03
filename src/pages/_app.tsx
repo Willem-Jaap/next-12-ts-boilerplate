@@ -1,7 +1,9 @@
+// Package imports
 import React from 'react';
 import { AppProps } from 'next/app';
 
-import '@styles/style.scss';
+// Style imports
+import '@styles/styles.scss';
 
 const App = ({ Component, pageProps }: AppProps): JSX.Element => {
     return <Component {...pageProps} />;
